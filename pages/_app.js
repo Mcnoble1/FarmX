@@ -19,17 +19,6 @@ const App = ({ Component, pageProps }) => {
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
 
-  // google tag manager (gtm)
-  const tagManagerArgs = {
-    gtmId: config.params.tag_manager_id,
-  };
-  useEffect(() => {
-    setTimeout(() => {
-      config.params.tag_manager_id && TagManager.initialize(tagManagerArgs);
-    }, 5000);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   return (
     <JsonContext>
       <Head>

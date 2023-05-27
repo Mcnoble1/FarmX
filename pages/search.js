@@ -53,13 +53,3 @@ const SearchPage = ({ authors }) => {
 };
 
 export default SearchPage;
-
-// get authors data
-export const getStaticProps = () => {
-  const authors = getSinglePage("content/authors");
-  return {
-    props: {
-      authors: authors,
-    },
-  };
-};

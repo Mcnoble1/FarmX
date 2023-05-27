@@ -15,12 +15,6 @@
     "blog_folder": "posts"
   },
 
-  "params": {
-    "tag_manager_id": "",
-    "contact_form_action": "#",
-    "copyright": "Copyright © 2022 a theme by [themefisher](https://themefisher.com)"
-  },
-
   "metadata": {
     "meta_author": "Themefisher",
     "meta_image": "/images/og-image.png",
