@@ -17,16 +17,6 @@ const SearchPage = ({ authors }) => {
     }
     if (slugify(product.frontmatter.title).includes(keyword)) {
       return product;
-    } else if (
-      product.frontmatter.categories.find((category) =>
-        slugify(category).includes(keyword)
-      )
-    ) {
-      return product;
-    } else if (
-      product.frontmatter.tags.find((tag) => slugify(tag).includes(keyword))
-    ) {
-      return product;
     } else if (slugify(product.content).includes(keyword)) {
       return product;
     }
