@@ -2,7 +2,7 @@
 title: RICE (ORYZA SATIVA)
 description: "meta description"
 date: 2023-05-27T05:00:00Z
-image: "/images/posts/rice.png"
+image: "/images/posts/rice2.jpg"
 ---
 
 Rice cultivation offers significant opportunities for regenerative farming practices, promoting sustainable water management, soil health, and biodiversity conservation. Its average yield per hectare is 3-6 tonnes.

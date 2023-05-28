@@ -1,12 +1,11 @@
 import Share from "@components/Share";
 import dateFormat from "@lib/utils/dateFormat";
-import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
+import { markdownify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
-import Link from "next/link";
 
-const PostSingle = ({ post, posts, slug }) => {
+const PostSingle = ({ post, slug }) => {
   const { frontmatter, content, mdxContent } = post;
   let { description, title, date, image } = frontmatter;
   description = description ? description : content.slice(0, 120);

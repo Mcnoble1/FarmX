@@ -7,6 +7,9 @@ const Posts = ({ posts, className }) => {
   const { summary_length } = config.settings;
   return (
     <div className={`row ${className}`}>
+      <p className="mb-10">The FarmX Wiki revolutionizes farming knowledge by offering cutting-edge insights and real-time updates on the latest agricultural practices. With a strong focus on regenerative farming, our platform empowers farmers to cultivate with excellence while minimizing environmental impact and combating climate change.
+ You don't have to be a commercial farmer for you practice regenerative farming, being it in your home garden or small area of land.
+</p>
       {posts.map((post) => (
         <div
           className="col-12 sm:col-6"
